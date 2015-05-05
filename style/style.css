@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff; 
+	background-image: 
+		linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+		linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em;
+	font-family: arial, sans-serif;
+}
+
+header{
+	border-bottom: 2px solid orange;
+	width: 100%;
+	height: 120px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	background-color: black;
+	background:
+		radial-gradient(black 15%, transparent 16%) 0 0,
+		radial-gradient(black 15%, transparent 16%) 8px 8px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px;
+	position: fixed;
+	z-index: 9999;
+}
+.image-cover{
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+	background: url("../img/Selfi.jpg") 10px -5px;
+	-webkit-filter: sepia(1);
+	filter: sepia(1);
+	background-size: 81%;
+	border-radius: 50%;
+	box-shadow: 0 0 10px 0 #EDEDED;
+}
+
+.image-cover:hover{
+	-webkit-filter: none;
+	filter: none;
+}
+
+.title{
+	padding-top: 25px;
+	font-size: 1.3em;
+	color: white;
+}
+.contacts{
+
+	padding-top: 15px;
+	/*height: 50%;*/
+}
+
+.contacts>li, a{
+	color: orange;
+	list-style-type: none;
+	text-decoration: none;
+	line-height: 15px;
+	transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+}
+
+.contacts>li>a:hover{
+	background-color: darkorange;
+	color: white;
+	border-radius: 5px;
+	text-decoration: underline;
+	transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+}
+
+main{
+	margin: 0 auto;
+	padding-top: 140px;
+	width: 90%;
+	position: inherit;
+	z-index: 10;
+}
+
+section{
+	margin-left: 15px;
+	padding:50px 0 50px 0;
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid lightgray;
+}
+
+h2{
+	color: #CC7000;
+	width: 20%;
+	float: left;
+}
+
+.first-section{
+	padding-top: 10px;
+}
+
+span{
+	display: block;
+	line-height: 33px;
+	padding-left: 30px;
+}
+
+.adress{
+	background: url("../img/location.png") no-repeat;
+	background-size: 25px 25px;
+	background-position: left;
+}
+
+.own{
+	background: url("../img/gender-male.png") no-repeat;
+	background-size: 40px 40px;
+	background-position: -12px;	
+}
+
+.date{
+	background: url("../img/calendar.png") no-repeat;
+	background-size: 25px 25px;
+	background-position: left;		
+}
+
+.flag{
+	background: url("../img/Bulgaria-Flag.png") no-repeat;
+	background-size: 25px 25px;
+	background-position: left;	
+}
+
+.text{
+	padding: 0 15px 0 15px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+table{
+	margin: 0 auto;
+	width: 70%;
+	border: 1px solid black;
+}
+
+tr>td, th{
+	border: 1px solid black;
+}
+
+.lang{
+	text-align: center;
+}
+
+th{
+	color: #CC7000;
+}
+
+li{
+	padding-bottom: 10px;
+}
+
+footer{
+	display: none;
+}
+
+@media all and (min-width: 240px) and (max-width: 640px){
+	body{
+		background-image: linear-gradient(rgba(171, 206, 212, 0) 79px, #abced4 81px, transparent 81px),
+		 linear-gradient(#eee .1em, transparent .1em);
+	}
+   .image-cover{
+   		display: none;
+    }
+	.title{
+		font-size: 1em;
+		padding-top: 0;
+		margin: 0 auto;
+	}
+    header{
+    	height: 55px;
+    }
+    .contacts{
+    	display: none;
+    }
+    section{
+    	width: 90%;
+    	display: inline;
+    	text-align: center;
+    	padding-bottom: 20px;
+    }
+    .last-section{
+    	margin-bottom: 300px;
+    }
+    main{
+    	padding-top: 20%;
+    }
+    h2{
+    	margin: 0 auto 5px auto;
+    	float: none;
+    	width: 50%;
+    }
+	table{
+		margin: 0 auto;
+	}
+    .text{
+    	width: 90%;
+    	margin: 0 auto 3% auto;
+    	float:none;
+    	padding-bottom: 3%;
+    	border-bottom: 1px solid orange;
+    }
+	footer{
+		display: flex;
+		width: 100%;
+		height: 100px;
+		background-color: white;
+	}
+	footer, a{
+		display: flex;
+		justify-content: space-around;
+	}
+	.bottom-contacts>img{
+		width: 80px;
+		height: 80px;
+	}
+}
+
+@media screen and (min-width: 640px) and (max-width: 1100px) {
+	body{
+		background-image: linear-gradient(rgba(171, 206, 212, 0) 79px, #abced4 81px, transparent 81px),
+		 linear-gradient(#eee .1em, transparent .1em);
+	}
+	.contacts{
+		display: none;
+	}
+	section{
+    	width: 90%;
+    	display: inline;
+    	text-align: center;
+    	padding-bottom: 20px;
+    }
+        h2{
+    	margin: 0 auto 5px auto;
+    	float: none;
+    	width: 50%;
+    }
+    .text{
+    	width: 90%;
+    	margin: 0 auto 3% auto;
+    	float:none;
+    	padding-bottom: 3%;
+    	border-bottom: 1px solid orange;
+    }
+    .bottom-contacts>img{
+		width: 80px;
+		height: 80px;
+	}
+    footer{
+		display: flex;
+		justify-content: space-around;
+	}
+}

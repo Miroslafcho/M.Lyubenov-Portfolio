@@ -1,0 +1,129 @@
+doctype html
+html
+	head
+		meta(content="charset=UTF-8")
+		title Portfoliyo Package
+		link(rel="stylesheet", href="style/animate.min.css")
+		link(rel="stylesheet", text="text/css" href="style/reset.css")
+		link(rel="stylesheet", text="text/css" href="style/style.css")
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+	body
+		header
+			nav
+				a(href="#")
+					img(src="img/logo.png", alt="logo")
+				div
+					a(href="#" title="WORK") WORK
+					a(href="#" title="TEAM") TEAM
+					a(href="#" title="CONTACT") CONTACT
+			div.bg-wrapper
+				img(src="img/clouds.jpg", alt="Clouds")
+				div.bg-title
+					span
+						h1 LET US MAKE<br>YOUR LIVES EASIER
+						p We specialize in crafting awesonme ideas for web, mobile and beyond
+				a(href="#work")
+					div.circle
+						div.inner-circle
+							img(src="img/header-arrow.png", alt="button")
+
+		div#work.work-container
+			section.work
+				h2 FEATURED WORK
+				p Here you can find some of our latest works, to see the details of these works just click the thumbnails below.
+				div.tumbs-container
+					a.first(href="#")
+						img.img-hover(src="img/Pillter.png", alt="Pillter")
+						img(src="img/Pillter-hover.png", alt="on-hover")
+					a.second(href="#")
+						img.img-hover(src="img/Touchmania.png", alt="Touch")
+						img(src="img/Touchmania-hover.png", alt="Touch")
+					a.third(href="#")
+						img.img-hover(src="img/Locate.png", alt="Locate")
+						img(src="img/Locate-hover.png", alt="Locate")
+					a.fourth(href="#")
+						img.img-hover(src="img/Umberapp.png", alt="Umberapp")
+						img(src="img/Umberapp-hover.png", alt="Umberapp")
+					a.fifth(href="#")
+						img.img-hover(src="img/Hipo.png", alt="Hipo")
+						img(src="img/Hipo-hover.png", alt="Hipo")
+					a.sixth(href="#")
+						img.img-hover(src="img/Pardio.png", alt="Pardio")
+						img(src="img/Pardio-hover.png", alt="Pardio")
+					a.eight(href="#")
+						img.img-hover(src="img/Banadediki.png", alt="Banadediki")
+						img(src="img/Banadediki-hover.png", alt="Banadediki")
+					a.ninght(href="#")
+						img.img-hover(src="img/Biz-Corner.png", alt="Biz-Corner")
+						img(src="img/Biz-Corner-hover.png", alt="Biz-Corner")
+					a.tenth(href="#")
+						img.img-hover(src="img/Arabul.png", alt="Arabul")
+						img(src="img/Arabul-hover.png", alt="Arabul")
+							
+		div.team-container
+			section.team
+				h2 TEAM
+				p We are a hard working group, who's aim is to listen to your problems and to come up with the best solution possible. We follow the lates trends on the web to create custom talierd niche websites.
+				div.members-container
+					article.member
+						a(href="#")
+							img(src="img/pic1.jpg", alt="first-picture")
+						h1 NAME SURNAME
+						p Lead Designer
+						//- twitter
+						a.twitter(href="#")
+							img(src="img/Twitter.png", title="Twitter" alt="twitter")
+						//- Linked-In
+						a.linked-in(href="#")
+							img(src="img/Linked-In.png", title="Linked-in" alt="Linked-In")
+
+					article.member
+						a(href="#")
+							img(src="img/pic2.jpg", alt="second-picture")
+						h1 NAME SURNAME
+						p Lead Designer
+						a.twitter(href="#")
+							img(src="img/Twitter.png", title="Twitter" alt="twitter")
+						a.linked-in(href="#")
+							img(src="img/Linked-In.png", title="Linked-In" alt="Linked-In")
+						a.Dribbbel(href="#")
+							img(src="img/Dribbbel.png", title="Dribbbel" alt="Dribbbel")
+
+					article.member
+						a(href="#")
+							img(src="img/pic3.jpg", alt="third-picture")
+						h1 NAME SURNAME
+						p Lead Designer
+						a.skype(href="#")
+							img(src="img/Skype.png", title="Skype" alt="skype")
+						a.linked-in(href="#")
+							img(src="img/Linked-In.png", title="Linked-In" alt="Linked-In")
+
+					article.member
+						a(href="#")
+							img(src="img/pic4.jpg", alt="fourth-picture")
+						h1 NAME SURNAME
+						p Lead Designer
+						a.skype(href="#")
+							img(src="img/Skype.png", title="Skype" alt="skype")
+						a.linked-in(href="#")
+							img(src="img/Linked-In.png", title="Linked-In" alt="Linked-In")
+		div.contact-container
+			section.contact
+				h1 CONTACT
+				div.map
+					p Where are we located?
+					div.place
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2967.8222523058744!2d25.538862200000015!3d41.939670700000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ad50e608ccfc89%3A0x7d73493470a19a1!2z0LYu0LouINCR0LDQtNC10LzQsCAyOS3QkSwgNjMwMSDQpdCw0YHQutC-0LLQvg!5e0!3m2!1sbg!2sbg!4v1429775530160" width="310" height="320" frameborder="0" style="border:0"></iframe>
+				div.form
+					p Want to contact us now? Just drop us a line below.
+					textarea(placeholder="Leave us a message...")
+					div.send-button
+						input(type="email" placeholder="your@mail.com")
+						a(href="#") 
+							p SEND
+		footer
+			div.foot-container
+				p Adress:
+					span  Badema dist., bl. 29, ent. A, ap. 47, Haskovo, Bulgaria
+				span M. Lyubenov 2015y.
