@@ -16,8 +16,6 @@ header{
 	border-bottom: 2px solid orange;
 	width: 100%;
 	height: 120px;
-	display: flex;
-	justify-content: space-around;
 	text-align: center;
 	background-color: black;
 	background:
@@ -31,6 +29,8 @@ header{
 	z-index: 9999;
 }
 .image-cover{
+	float: left;
+	margin-left: 8%;
 	margin-top: 10px;
 	width: 100px;
 	height: 100px;
@@ -51,29 +51,6 @@ header{
 	padding-top: 25px;
 	font-size: 1.3em;
 	color: white;
-}
-.contacts{
-
-	padding-top: 15px;
-	/*height: 50%;*/
-}
-
-.contacts>li, a{
-	color: orange;
-	list-style-type: none;
-	text-decoration: none;
-	line-height: 15px;
-	transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-}
-
-.contacts>li>a:hover{
-	background-color: darkorange;
-	color: white;
-	border-radius: 5px;
-	text-decoration: underline;
-	transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
 }
 
 main{
@@ -132,12 +109,39 @@ span{
 	background-position: left;	
 }
 
+.contacts{
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 300px;
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+
+.mail{
+	padding-left: 30px;
+	background: url("../img/mail.png") no-repeat;
+	background-size: 25px, 25px;
+	background-position:left;
+}
+.phone{
+	padding-left: 30px;
+	background: url("../img/phone.png") no-repeat;
+	padding-left: 30px;
+	background-size: 25px, 25px;
+	background-position:left;
+}
+
 .text{
 	padding: 0 15px 0 15px;
 	width: 70%;
 	margin: 0 auto;
 }
 
+div.text a{
+	text-decoration: none;
+}
 table{
 	margin: 0 auto;
 	width: 70%;
@@ -147,7 +151,14 @@ table{
 tr>td, th{
 	border: 1px solid black;
 }
-
+section>table>tbody>tr>th a{
+	text-decoration: none;
+	color: blue;
+}
+section>table>tbody>tr>th a:hover{
+	color: brown;
+	text-decoration: underline;
+}
 .lang{
 	text-align: center;
 }
