@@ -148,6 +148,10 @@ table{
 	border: 1px solid black;
 }
 
+.work-experience{
+	display: none;
+}
+
 tr>td, th{
 	border: 1px solid black;
 }
