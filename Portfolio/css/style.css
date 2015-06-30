@@ -1,0 +1,525 @@
+@font-face {
+    font-family: ball-parker;
+    src: url("../fonts/ballParker.ttf");
+}
+
+@font-face {
+    font-family: helve-neue;
+    src: url("../fonts/HelveticaNeue.ttf");
+}
+
+@font-face {
+    font-family: helve-neue-bold;
+    src: url("../fonts/helvetica-neue-bold.ttf");
+}
+
+@font-face {
+    font-family: helve-neue-italic;
+    src: url("../fonts/HelveticaNeue-Italic.otf");
+}
+
+a {
+    font-size: 12px;
+}
+
+body {
+    font-family: helve-neue;
+    font-size: 12px;
+}
+
+#wrapper {
+    width: 100%;
+    background: url("../img/header-bg.png") no-repeat;
+    background-size: 100% 512px;
+}
+/* START HEADER STYLING */
+
+#wrapper header {
+    width: 960px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+#wrapper> hearder nav {
+    margin-top: 25px;
+}
+
+#wrapper> header h1 {
+    margin-left: 15px;
+    padding-top: 22px;
+    float: left;
+    color: #dbdbdb;
+    font-weight: normal;
+    font-family: ball-parker;
+    font-size: 36px;
+}
+
+#wrapper> header> nav ul {
+    padding-top: 26px;
+    margin-left: 292px;
+}
+
+#wrapper> header> nav> ul> li {
+    margin-right: 24px;
+    display: inline-block;
+    text-align: center;
+}
+
+#wrapper> header> nav> ul> li a:hover {
+    cursor: pointer;
+    background-color: #666;
+    box-shadow: 0px 0px 10px 0px cyan;
+    border-radius: 5px;
+}
+
+#wrapper> header> nav> ul> li a:active {
+    transform: scale(0.95);
+    box-shadow: none;
+}
+
+#wrapper> header> nav> ul li:nth-child(3) {
+    margin-left: -6px;
+}
+
+#wrapper> header> nav> ul li:nth-child(4) {
+    margin-left: -12px;
+}
+
+#wrapper> header> nav> ul li:nth-child(5) {
+    margin-left: -11px;
+}
+
+#wrapper> header> nav> ul> li a {
+    display: block;
+    width: 60px;
+    height: 30px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 28px;
+    font-family: helve-neue-bold;
+    transition: 0.1s all ease-in-out;
+}
+
+#wrapper> header> nav> ul> li:nth-child(7) {
+    margin-right: 0px;
+}
+
+#wrapper> header> nav> ul> li input {
+    margin-left: 8px;
+    width: 150px;
+    height: 25px;
+    color: #fff;
+    background: url("../img/magnifire.png") no-repeat;
+    background-position: 9px 9px;
+    background-color: #2F2F2F;
+    text-indent: 30px;
+    border-radius: 15px;
+    border: none;
+}
+/*clearing margin-right*/
+
+#wrapper> header .header-text {
+    float: left;
+    margin-left: -127px;
+    width: 359px;
+    margin-top: 68px;
+    color: #fff;
+}
+
+#wrapper> header> .header-text h2 {
+    font-family: helve-neue-bold;
+    font-size: 23.9px;
+    line-height: 28px;
+}
+
+#wrapper> header> .header-text p {
+    margin-top: 25px;
+    margin-left: -2px;
+    line-height: 18px;
+}
+
+#wrapper> header> .header-text p:nth-child(3) {
+    margin-top: 18px;
+}
+
+#wrapper> header> .header-text button {
+    margin-top: 23px;
+    width: 142px;
+    height: 35px;
+    color: #fff;
+    background: #919191;
+    font-family: helve-neue-bold;
+    font-size: 13px;
+    text-indent: -8px;
+    transition: .1s all ease-in-out;
+    border: none;
+    border-radius: 5px;
+}
+
+#wrapper> header> .header-text button:hover {
+    background: #555;
+    box-shadow: 0px 0px 10px 0px cyan;
+    border-radius: 5px;
+}
+
+#wrapper> header> .header-text button:active {
+    transform: scale(0.95);
+}
+
+#wrapper> header> .header-img {
+    position: relative;
+    left: -5px;
+    float: right;
+    height: 380px;
+    width: 580px;
+}
+
+#wrapper> header> .header-img .img-monitor {
+    position: absolute;
+    top: 33px;
+    left: 222px;
+    z-index: 0;
+}
+
+#wrapper> header> .header-img .img-inscreen {
+    position: absolute;
+    top: 33px;
+    left: 237px;
+    z-index: 100;
+}
+
+#wrapper> header> .header-img .img-3d {
+    position: absolute;
+    top: 56px;
+    left: 46px;
+    z-index: 200;
+}
+/* END HEADER STYLING*/
+/* START DESCRIPTION STYLING */
+
+#wrapper .description {
+    width: 960px;
+    margin: auto;
+}
+
+#wrapper> .description article {
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    width: 220px;
+    height: 321px;
+    background: #fff;
+}
+
+#wrapper> .description article:before {
+    content: "";
+    position: absolute;
+    background: url("../img/shadow.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    width: 233px;
+    height: 292px;
+    z-index: -100
+}
+
+#wrapper> .description> article h3 {
+    margin: 20px 0 20px 26px;
+    font-size: 14.5px;
+    font-family: helve-neue-bold;
+}
+
+#wrapper> .description> article:nth-child(2) h3 {
+    margin-left: 25px;
+}
+
+#wrapper> .description> article:nth-child(3) h3 {
+    margin-left: 24px;
+    letter-spacing: 0.091px;
+    font-size: 14.3px;
+}
+
+#wrapper> .description> article:nth-child(4) h3 {
+    margin-left: 22px;
+}
+
+#wrapper> .description> article p {
+    margin-top: 8px;
+    margin-left: 23px;
+    width: 170px;
+    line-height: 16px;
+    font-family: helve-neue;
+}
+
+#wrapper> .description> article p:nth-child(2) {
+    color: #ccc;
+}
+
+#wrapper> .description> article .divider-short {
+    margin-top: 30px;
+    margin-left: 22px;
+    width: 165px;
+    height: 5px;
+    background: url('../img/divider.png') no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+#wrapper> .description> article a {
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 23px;
+    color: #000;
+    text-decoration: none;
+    font-family: helve-neue-bold;
+    transition: .1s all ease-in-out;
+}
+
+#wrapper> .description> article a:hover {
+    color: #008800;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+/* END DESCRIPTION STYLING */
+/* START WORK CONTENT STYLING */
+
+#wrapper .work {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#wrapper> .work h3 {
+    margin-top: 73px;
+    margin-left: 34px;
+    font-size: 15.7px;
+}
+
+#wrapper> .work .divider {
+    margin-top: 10px;
+    margin-left: 34px;
+    margin-bottom: 29px;
+    display: inline-block;
+    width: 910px;
+    height: 6px;
+    background: url("../img/divider-long.png") no-repeat;
+}
+
+#wrapper> .work .work-text {
+    margin-top: -3px;
+    margin-left: 33px;
+    float: left;
+    width: 170px;
+    line-height: 16px;
+}
+
+#wrapper> .work> .work-text p:nth-child(2) {
+    margin-top: 8px;
+}
+
+#wrapper> .work .work-example {
+    float: right;
+    width: 720px;
+    height: 420px;
+}
+
+#wrapper> .work> .work-example div {
+    position: relative;
+    margin-right: 16px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 220px;
+    height: 200px;
+}
+
+#wrapper> .work> .work-example div:nth-child(3n+1) {
+    margin-left: 10px;
+}
+
+#wrapper> .work> .work-example div:nth-child(3n+3) {
+    margin-right: 0px;
+}
+/*START OF TUNE FOR HOVER*/
+
+#wrapper> .work> .work-example> div .magnifire {
+    position: absolute;
+    padding: 18px;
+    display: block;
+    top: 51px;
+    left: 69px;
+    width: 36px;
+    height: 36px;
+    background: rgba(200, 200, 200, 0.8);
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    border-radius: 5px;
+    z-index: 9999;
+}
+
+#wrapper> .work> .work-example> div .magnifire-blur {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 220px;
+    height: 200px;
+    background: rgba(25, 25, 25, 0.7);
+    z-index: 999;
+    transition: 0.2s all ease-in-out;
+}
+
+#wrapper> .work> .work-example div:hover .magnifire-blur {
+    opacity: 1;
+}
+
+#wrapper> .work> .work-example> div> .magnifire-blur .views-container {
+    position: absolute;
+    bottom: 15px;
+    left: 17px;
+    color: #fff;
+    font-family: helve-neue;
+}
+
+#wrapper> .work> .work-example> div> .magnifire-blur .views-label {
+    display: block;
+}
+
+#wrapper> .work> .work-example> div> .magnifire-blur .likes-container {
+    position: absolute;
+    left: 82px;
+    bottom: 15px;
+    color: #fff;
+    font-family: helve-neue;
+}
+
+#wrapper> .work> .work-example> div> .magnifire-blur .likes-label {
+    display: block;
+}
+
+#wrapper> .work> .work-example> div> .magnifire-blur .comments-container {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    color: #fff;
+    font-family: helve-neue;
+}
+
+#wrapper> .work> .work-example> div> .magnifire-blur .comments-label {
+    display: block;
+}
+/*END OF TUNE FOR HOVER*/
+/* END WORK CONTENT STYLING */
+
+#wrapper footer {
+    background: url("../img/BG-texture.png") repeat;
+    margin: auto;
+    margin-top: 50px;
+    width: 89%;
+    height: 280px;
+    font-family: helve-neue;
+    color: #fff;
+    text-decoration: none;
+}
+
+#wrapper> footer section {
+    margin: auto;
+    width: 960px;
+}
+
+#wrapper> footer> section article {
+    float: left;
+    margin-left: 8px;
+    margin-right: 10px;
+    width: 222px;
+}
+
+#wrapper> footer> section article:last-child {
+    margin-right: 0;
+}
+/*CLEARING MARGIN-RIGHT*/
+
+#wrapper> footer> section> article h3 {
+    margin-top: 38px;
+    margin-left: 1px;
+    margin-bottom: 21px;
+    font-family: helve-neue-bold;
+    font-size: 16px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid gray;
+}
+
+#wrapper> footer> section> article p {
+    margin-left: 2px;
+}
+
+#wrapper> footer> section> .foot-about p:last-child {
+    margin-top: 14px;
+}
+
+#wrapper> footer> section> article a {
+    margin-bottom: 14.5px;
+    margin-left: 2px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+#wrapper> footer> section> article a:hover {
+    text-decoration: underline;
+}
+
+#wrapper> footer> section> .foot-twitts> .first-twitt a {
+    margin-bottom: 7px;
+    display: inline-block;
+    line-height: 14px;
+    font-size: 12.3px;
+}
+
+#wrapper> footer> section> .foot-twitts> .first-twitt span {
+    margin-left: 3px;
+    color: rgb(130, 130, 130);
+}
+
+#wrapper> footer> section> .foot-twitts .second-twitt {
+    margin-top: 22px;
+    margin-bottom: 0px !important;
+    display: inline-block;
+}
+
+#wrapper> footer> section> .foot-twitts> .second-twitt a {
+    margin-bottom: 0;
+}
+
+#wrapper> footer> section> .foot-twitts> .second-twitt span {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 3px;
+}
+
+#wrapper> footer> section> .foot-twitts .third-twitt {
+    margin-top: 20px;
+    margin-left: 2px;
+    display: block;
+}
+
+#wrapper> footer> section> .foot-twitts> .third-twitt a {
+    display: inline-block;
+}
+
+#wrapper> footer> section article.foot-flicks{
+    width: 222px;
+    height: 300px;
+}
+
+#wrapper > footer > section > article.foot-flicks > a {
+    margin-top: 2px;
+	margin-right: 8px;
+	display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: #fff;
+}
+#wrapper > footer > section > article.foot-flicks > a:nth-child(4n+1){
+	margin-right: 0;
+}
+#wrapper > footer > section > article.foot-flicks > a:nth-child(1n+6){
+	margin-top: -5px;
+}
